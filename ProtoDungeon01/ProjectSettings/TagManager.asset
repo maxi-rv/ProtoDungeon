@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Obstacle
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PushBox
+  - HurtBox
+  - HitBox
+  - CameraLimiter
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1237335717
+    locked: 0
+  - name: Obstacles
+    uniqueID: 995265239
+    locked: 0
+  - name: Objects
+    uniqueID: 3494358547
+    locked: 0
+  - name: Enemies
+    uniqueID: 1954762275
+    locked: 0
+  - name: Projectiles
+    uniqueID: 3171656749
+    locked: 0
+  - name: Player
+    uniqueID: 2910996127
+    locked: 0
+  - name: SkyDetails
+    uniqueID: 1388948969
+    locked: 0
