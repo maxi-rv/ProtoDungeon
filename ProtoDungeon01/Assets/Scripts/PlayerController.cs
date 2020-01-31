@@ -344,6 +344,11 @@ public class PlayerController : MonoBehaviour
     public void StopHurt()
     {
         spriteRenderer.material = matDefault;
+        Invoke("EnableHurtBox", 1f);
+    }
+
+    private void EnableHurtBox()
+    {
         hurtBox.enabled = true;
     }
 

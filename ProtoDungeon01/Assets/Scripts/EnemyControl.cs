@@ -105,9 +105,13 @@ public class EnemyControl : MonoBehaviour
     // Sets required variables to stop the hurting state.
     public void StopHurt()
     {
-        hurtBox.enabled = true;
-
         spriteRenderer.material = matDefault;
+        Invoke("EnableHurtBox", 0.5f);
+    }
+
+    private void EnableHurtBox()
+    {
+        hurtBox.enabled = true;
     }
 
 
